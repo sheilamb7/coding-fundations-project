@@ -1,0 +1,64 @@
+.introduction-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+
+}
+
+.introduction-container > .presentation-text {
+    padding: 2em 2em 4em 2em;
+
+}
+
+.introduction-container > .presentation-text > .big-text{
+    font-size: 2em;
+    color: #FFF;
+    padding: 1em;
+    
+}
+
+.introduction-container > .presentation-text > .little-text{
+    font-size: 1.4em;
+    color: #999;
+    padding: 1.5em;
+
+}
+
+.introduction-container > .presentation-text > .presentation-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.introduction-container > .presentation-text > .presentation-buttons > a >.btn-signup{
+    background-color: #41a065;
+    color: #111111;
+    font-size: 2em;
+    border-radius: 3px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.introduction-container > .presentation-text > .presentation-buttons > a > .btn-learn  {
+    background-color: #131313;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 3px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.introduction-container > .presentation-image p{
+    color: #FFF;
+    font-weight: bold;
+}
+
+.introduction-container > .presentation-image p a{
+    color: #00bbff;
+}
+
+.introduction-container > .presentation-image img{
+    width: 500px;
+    
+}

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: rgb(72,71,91);
+    background: linear-gradient(153deg, rgb(73, 73, 78) 0%, rgb(54, 53, 53) 21%, rgb(10, 10, 10) 100%); 
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}

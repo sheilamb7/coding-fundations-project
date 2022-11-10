@@ -1,0 +1,41 @@
+@media (max-width: 615px) {
+
+
+    /* Navigation bar */
+    .navigation-wrapper {
+        flex-direction: column;
+    }
+
+    .navigation-logo-buttons-left {
+        flex-direction: column;
+    }
+
+    .navigation-logo-buttons-left > .nav-buttons {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    .navigation-logo-buttons-left > .nav-buttons > .buttons {
+        flex-wrap: wrap;
+    }
+
+    .navigation-wrapper > .navigation-buttons-right {
+        justify-content: center;
+    }
+
+    /* Container */
+    .introduction-container {
+        flex-direction: column;
+    }
+
+    .presentation-image p {
+        margin-left: 2em;
+    }
+
+    /* Footer navigation bar - put the menu in vertical */
+    .footer-buttons-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
